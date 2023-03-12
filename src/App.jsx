@@ -1,3 +1,4 @@
+import Menu from './layout/menu'
 import Navbar from './layout/navbar'
 function App() {
 
@@ -5,7 +6,8 @@ function App() {
     
     <div>
       <Navbar/>
-      <p>Oi</p>
+      <Menu/>
+  
     </div>
   )
 }
