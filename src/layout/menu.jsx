@@ -7,7 +7,7 @@ import Comida_4 from "../imgs/comida_4.jpg"
 
 function Menu() {
     return (
-        <div className="mb-10">
+        <div className="mb-10 bg-gray-100 py-10 shadow-md">
         <div className="flex-col ">
             <h1 className="mt-10 mb-3 border-b-2 text-3xl ml-4 w-52 text-yellow-300">Mais pedidos</h1>
             <div className=" grid grid-cols-1  gap-4 sm:grid-cols-2 mt-10 lg:grid-cols-4 ml-36 sm:ml-12 md:ml-4">
