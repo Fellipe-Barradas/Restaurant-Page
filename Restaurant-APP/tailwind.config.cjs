@@ -6,7 +6,11 @@ module.exports = {
     "./src/layout/navbar.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens:{
+        'xs': '360'
+      },
+    },
   },
   plugins: [],
 }
