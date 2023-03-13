@@ -1,6 +1,7 @@
 import History from './layout/history'
 import Menu from './layout/menu'
 import Navbar from './layout/navbar'
+import UserStars from './layout/UserStars'
 function App() {
 
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Menu/>
       <History/>
+      <UserStars />
     </div>
   )
 }
