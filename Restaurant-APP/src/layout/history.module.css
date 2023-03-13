@@ -1,0 +1,11 @@
+.conteiner{
+    background-image: url("../imgs/comida_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    backdrop-filter: blur(10px) ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+    box-shadow: 2px 2px 2px black;
+}
