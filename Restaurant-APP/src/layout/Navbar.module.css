@@ -1,0 +1,19 @@
+.conteiner{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgb(250 204 21);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.055);
+    align-self: center;
+    background-position: center;
+    animation: changeImage 120s infinite linear;
+}
+@keyframes changeImage {
+    0%{ background-image: url("../imgs/comida_1.jpg")}
+    20%{ background-image: url("../imgs/comida_2.jpg")}
+    40%{ background-image: url("../imgs/comida_5.jpg")}
+    60%{background-image: url("../imgs/comida_3.jpg")}
+    100%{background-image: url("../imgs/comida_4.jpg")}
+}

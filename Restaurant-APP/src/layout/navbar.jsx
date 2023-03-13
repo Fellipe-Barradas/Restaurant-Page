@@ -1,12 +1,12 @@
 import Comida_1 from "../imgs/comida_1.jpg"
-
+import styles from "./Navbar.module.css"
 
 
 function Navbar() {
    
     return ( 
     <div className='flex-col md:flex-row flex  justify-between pb-10 bg-slate-50 border-b-4 border-slate-200 '>
-        <div className="w-80 rounded-full overflow-hidden  mt-4 ml-5 border-4 border-yellow-700 shadow-md self-center"><img src={Comida_1} /></div>
+        <div className={styles.conteiner}></div>
         <div className="  self-center">
           <h1 className="  text-6xl text-yellow-300  mt-10 md:mt-0 ">Verde Brisa</h1>
           <h2 className=" text-2xl ml-10 mb-12 md:mb-0">Melhor restaurante de família</h2>
