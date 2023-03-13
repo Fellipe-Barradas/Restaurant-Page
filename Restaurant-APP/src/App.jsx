@@ -1,3 +1,4 @@
+import Footer from './layout/Footer'
 import History from './layout/history'
 import Menu from './layout/menu'
 import Navbar from './layout/navbar'
@@ -11,6 +12,7 @@ function App() {
       <Menu/>
       <History/>
       <UserStars />
+      <Footer />
     </div>
   )
 }
